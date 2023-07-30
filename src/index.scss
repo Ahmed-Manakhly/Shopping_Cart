@@ -1,0 +1,92 @@
+// general reset 
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+}
+
+.mainPage {
+  height: fit-content;
+  padding: 30px;
+  box-shadow: 0 10px 20px -5px rgb(198, 205, 216) !important;
+}
+
+
+.topNav {
+
+  a.active {
+    border: solid 2px white !important;
+    color:  white !important;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+  }
+}
+
+
+.mainNav {
+  box-shadow: 0 10px 20px -5px rgb(198, 205, 216) !important;
+  form {
+    width: calc((100% / 4) * 2);
+    
+    input {
+      border:  rgb(198, 205, 216) 3px solid;
+      box-shadow: inset -10px 10px 30px -15px rgb(198, 205, 216) !important;
+    }
+  }
+
+
+
+  .cart {
+    .btn {
+      box-shadow: -8px 8px 20px 3px rgb(198, 205, 216) !important;
+    }
+  }
+}
+//----------------------------------------------------------
+
+.footer {
+  margin-top: 12px;
+  box-shadow: 0 -20px 20px -5px rgb(180, 203, 240) !important;
+
+  .info {
+    overflow: hidden;
+    padding: 5px;
+    img {
+      width: 70%;
+      height: 70%;
+    }
+  }
+
+  .social {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .footrtNav {
+    a {
+      text-align: center;
+      color: white;
+      &.active {
+        border: solid 2px white !important;
+        color:  white !important;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+      }
+    }
+  }
+} 
+
+
