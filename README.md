@@ -1,10 +1,10 @@
-## Events_Manager
->>>react | router
+## Shopping_Cart
+>>>react | router | TS | BOOTSTRAP | SASS
 ##
 
-*This App allows the user to browse Events, Once authenticated, the user can add, delete or edit, it's connected to a Node.JS backend API, and it was a great opportunity to practice router and authentication, as well as deal with REST API.*
+*it's an E-commercial website with a shopping cart, it was a great opportunity to practice a complication of a lot of technologies together*
 
 `LIVE DEMO `
-*https://events-manager-egc6.onrender.com*
+*https://shopping-cart-r0hf.onrender.com*
 
-![Events_Manager](https://github.com/Ahmed-Manakhly/Events_Manager/assets/108705757/64dba19f-85dd-4e11-b711-f92beaf5d262)
+![Shopping_Cart](https://github.com/Ahmed-Manakhly/Shopping_Cart/assets/108705757/e27e5676-7bc1-4cf6-b2de-5c1baa32a8d9)
